@@ -1,5 +1,5 @@
--- Jednoduchy script na vypnutie tej vyjebanej pesnicky ked si v lietadle alebo v helikoptere
--- Ak toto vydas za svoje, tak ta podskrtim a zabijem kokotko a oštím tvoju mrtvolu
+-- jednoduchy script na vypnutie pesnicky ked lietas v lietadle alebo v helikoptere
+-- Vhodne pre pilotov ako ja :D
 Citizen.CreateThread(function()
     while true do
         SetAudioFlag(‘DisableFlightMusic’, true)
